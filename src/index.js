@@ -1,9 +1,5 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import Kennel from "./Kennel";
-
-ReactDOM.render(<App />, document.getElementById("root"));
+import ReactDOM from 'react-dom';
+import React from 'react';
+import Kennel from './Kennel';
 
 ReactDOM.render(<Kennel />, document.querySelector("#root"));
